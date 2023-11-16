@@ -226,10 +226,8 @@ public class Images {
 
           bfi = ImageIO.read(new File("resources/"+path));
           spriteList.add(bfi);
-          System.out.println(bfi.toString());
         } catch(IOException e2) {}
       }
-      System.out.println(spriteList.size());
 		}
 
 		public Image getAura(String name) {
