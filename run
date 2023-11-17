@@ -1,0 +1,3 @@
+#!/bin/bash
+
+javac -d bin $(find -name "*.java" || dir /s /B *.java) && java -cp bin Main

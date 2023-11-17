@@ -52,8 +52,7 @@ public class Sound {
 				b.start();
 			}
 
-			catch(Exception e) {
-				System.out.println("problme  l'coute du son");}
+			catch(Exception e) {}
 		}
 
 	}

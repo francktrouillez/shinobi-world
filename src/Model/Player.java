@@ -179,7 +179,7 @@ public abstract class Player extends GameObject implements Directable {
 			this.speed = 3;
 		}
 		else if(speed == 3) {
-			this.speed =1;
+			this.speed = 1;
 		}
 	}
 
